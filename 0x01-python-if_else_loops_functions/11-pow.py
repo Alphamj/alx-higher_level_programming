@@ -1,4 +1,7 @@
 #!/usr/bin/python3
 def pow(a, b):
-    val = pow(a, b)
-    return val
+    val = a
+    for i in range(b):
+        val = val * a
+    print(val)
+pow(2, 2)
