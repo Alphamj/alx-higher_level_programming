@@ -4,4 +4,3 @@ def pow(a, b):
     for i in range(b):
         val = val * a
     print(val)
-pow(2, 2)
