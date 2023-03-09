@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    import add_0 as cal
-    a = 10
-    b = 5
-    print("{:d} + {:d} = {:d}".format(a, b, cal.add(a, b)))
-    print("{:d} - {:d} = {:d}".format(a, b, cal.sub(a, b)))
-    print("{:d} * {:d} = {:d}".format(a, b, cal.mul(a, b)))
-    print("{:d} / {:d} = {:d}".format(a, b, cal.div(a, b)))
+    from add_0 import add
+    a = 1
+    b = 2
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
